@@ -13,40 +13,6 @@ of [`300WLP`](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm)
 
 - Author: Samuel Ko, mjanddy.
 
--------
-### Update Log 
-
-**@date**: 2019.11.13
-
-**@notice**: An important bug has been fixed by mj in loading uv map. The original `uv_map.jpg` is
-             flipped, so *.npy is used here to redress this problem. Thanks to [mjanddy](https://github.com/mjanddy)!
-
-**@date**: 2019.11.14
-
-**@notice**: Inference Stage Uploaded, pretrain model available in `results/latest.pth`. Thanks to [mjanddy](https://github.com/mjanddy)!
-
-------
-
-### Noitce
-
-Since replacing the default `PIL.Imgae` by `cv2.imread` in image reader, you need
-do a little revise on your `tensorboard` package in `your_python_path/site-packages/torch/utils/tensorboard/summary.py`
-
-What you should do is add `tensor = tensor[:, :, ::-1]` before `image = Image.fromarray(tensor)` in function `make_image(...)`.
-```shell
-...
-def make_image(tensor, rescale=1, rois=None):
-    """Convert an numpy representation image to Image protobuf"""
-    from PIL import Image
-    height, width, channel = tensor.shape
-    scaled_height = int(height * rescale)
-    scaled_width = int(width * rescale)
-
-    tensor = tensor[:, :, ::-1]
-    image = Image.fromarray(tensor)
-    ...
-...
-``` 
 
 ----
 ## ① Pre-Requirements 
