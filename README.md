@@ -11,9 +11,6 @@
 This is an unofficial pytorch implementation of **PRNet** since there is not a complete generating and training code
 of [`300WLP`](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm) dataset.
 
-- Author: Samuel Ko, mjanddy.
-
-
 ----
 ## ① Pre-Requirements 
 
