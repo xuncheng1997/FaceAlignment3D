@@ -1,17 +1,17 @@
 # 人脸重建/对齐论文
 # CVPR2021
-1.Riggable 3D Face Reconstruction via In-Network Optimization(实验中做了视频相关的比较)
-2.3DCaricShop: A Dataset and A Baseline Method for Single-view 3D Caricature Face Reconstruction
-3.Learning to Aggregate and Personalize 3D Face from In-the-Wild Photo Collection
+1. Riggable 3D Face Reconstruction via In-Network Optimization(实验中做了视频相关的比较)
+2. 3DCaricShop: A Dataset and A Baseline Method for Single-view 3D Caricature Face Reconstruction
+3. Learning to Aggregate and Personalize 3D Face from In-the-Wild Photo Collection
 
 # ECCV2020
 1.“Look Ma, no landmarks!” – Unsupervised, Model-based Dense Face Alignment （密集人脸对齐）
-2.Personalized Face Modeling for Improved Face Reconstruction and Motion Retargeting （输入是视频的帧）（√）----多视图重建
-3.Towards Fast, Accurate and Stable 3D Dense Face Alignment（√）
+2.Personalized Face Modeling for Improved Face Reconstruction and Motion Retargeting ----多视图重建
+3.Towards Fast, Accurate and Stable 3D Dense Face Alignment
 4.Beyond 3DMM Space: Towards Fine-grained 3D Face Reconstruction
 5.Inequality-Constrained and Robust 3D Face Model Fitting（基于优化的方法，没有使用神经网路）
 6.JNR: Joint-based Neural Rig Representation for Compact 3D Face Modeling（不是基于3DMM的方法）
-7.Self-Supervised Monocular 3D Face Reconstruction by Occlusion-Aware Multi-view Geometry Consistency（于3DDFA做了对比,多视图的几何一致性约束 pixel和depth一致性损失函数，NME超过了3DDFA-V2）----多视图重建
+7.Self-Supervised Monocular 3D Face Reconstruction by Occlusion-Aware Multi-view Geometry Consistency 多视图重建
 8.Synthesizing Coupled 3D Face Modalities by Trunk-Branch Generative Adversarial Networks
 
 # CVPR2020
