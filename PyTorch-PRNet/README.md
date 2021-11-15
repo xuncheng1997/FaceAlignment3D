@@ -47,7 +47,7 @@ Then `300WLP_IBUG` dataset is the proper structure for training PRNet:
 ```
 
 Except from download from [`300WLP`](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm),
-I provide processed *original--uv_posmap* pair of IBUG [here](https://drive.google.com/open?id=16zZdkRUNdj7pGmBpZIwQMA00qGHLLi94).
+;I provide processed *original--uv_posmap* pair of IBUG [here](https://drive.google.com/open?id=16zZdkRUNdj7pGmBpZIwQMA00qGHLLi94).
 
 ## ③ Training
 After finish the above two step, you can train your own PRNet as:
